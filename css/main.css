@@ -1,0 +1,387 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #191919;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-weight: 900;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.52px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 47px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+
+.navigation {
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation img {
+    position: relative; 
+    left: -20px;
+}
+
+.navigation ul {
+    margin: 0; 
+    padding: 0;
+
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 0.77em;
+    padding: 20px;
+}
+
+.container a:hover {
+    color: #191919;
+}
+
+.navigation a:hover {
+    color: #118DA8;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.podcast1 {
+    border-radius: 15px;
+}
+
+.nextlevel {
+    padding: 0px;
+    margin-top: 300px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    font-size: 3.65em;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.nextlevel span {
+    font-weight: 700;
+}
+
+.header-container p {
+    margin-left: 60px;
+}
+
+.applist {
+    margin-top: 75px;
+}
+
+.applist ul {
+    list-style-type: none;
+    margin-left: 13px;
+}
+
+.applist li {
+    display: inline-block;
+    padding: 2px 7px;
+}
+
+.latestepisodes__container {
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.link--wrapper {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.blue--link {
+    display: block;
+    text-align: center;
+    background: #118DA8;
+    border-radius: 6px;
+    height: 50px;
+}
+
+.latestepisodes__container a:hover {
+    color: #191919;
+}
+
+.link--wrapper p {
+    font-size: 1.06em;
+    font-weight: 400;
+    padding: 5px 15px;
+    margin-top: 8px;
+}
+
+.episodes--section {
+    margin: 60px 0px;
+    display:flex;
+    border-radius: 32px;
+    background: #000000;
+}
+
+.episodes--section img {
+    padding: 40px;
+}
+
+
+.container-wrapper h3 {
+    margin-top: 18px;
+    margin-right: 230px;
+}
+
+.container-wrapper {
+    margin-right: 40px;
+}
+
+.container-wrapper a {
+    margin-right: 650px;
+}
+
+.wrapper--category {
+    margin-top: 48px;
+    padding: 5px 16px;
+    display: inline-block;
+    background: #191919;
+    border-radius: 6px;
+}
+
+.wrapper--category p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.numepisodes {
+    margin-top: 50px;
+    color: #118DA8;
+}
+
+.description--episodes {
+    margin-right: 130px;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.viewepis {
+    padding-top: 15px;
+}
+
+.podcast-container {
+    margin-left: 50px;
+}
+
+.podcast--description {
+    margin-top: 35px;
+    margin-right: 190px;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.podcast2 {
+    margin-top: 200px;
+}
+
+.righticon {
+    display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-align: center;
+  line-height: 140px;
+  background: #118DA8;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+}
+
+.subscribe {
+    margin: 60px 0px;
+    display:flex;
+    border-radius: 32px;
+    background: #000000;
+    justify-content: space-between;
+}
+
+.sibscribe--container {
+    margin-left: 60px;
+}
+
+.sibscribe--container h2 {
+    margin-right: 330px;
+}
+
+.form {
+    margin: 60px;
+}
+
+input {
+    margin-bottom: 25px;
+    width: 500px;
+    background: #191919;
+    border-radius: 10px;
+    border: 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"] {
+    padding: 20px;
+}
+
+input[type="email"] {
+    padding: 20px;
+}
+
+.submit {
+    margin-right: 435px;
+    font-size: 15px;
+}
+
+.reviews {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.reviews div {
+    margin-bottom: 15px;
+    border-radius: 32px;
+    background: #000000;
+    width: 470px;
+    height: 370px;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.reviews div:hover {
+    transform: scale(1.05); 
+}
+
+.reviews img {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.reviews p {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    display:flex;
+    padding: 150px 0px;
+}
+
+footer div {
+    margin-right: 120px;
+}
+
+footer ul {
+    margin: 0px;
+    
+}
+
+footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social img {
+    padding-right: 10px;
+}
+
+.applist-footer {
+    margin-right: 100px;
+}
+
+.applist-footer  ul {
+    list-style-type: none;
+    margin-left: 13px;
+}
+
+.applist-footer li {
+    display: inline-block;
+    padding: 2px 7px;
+}
+
+.applist li {
+    transition: 0.5s;
+}
+
+.applist li:hover {
+    transform: scale(1.2); 
+}
+
+.applist-footer li {
+    transition: 0.5s;
+}
+
+.social img {
+    transition: 0.5s;
+}
+
+.social img:hover {
+    transform: scale(1.2); 
+}
+
+.applist-footer li:hover {
+    transform: scale(1.2);
+}
+
+.footer-link a:hover {
+    color: #118DA8;
+}
+
+.animated {
+	opacity: 0;
+}
