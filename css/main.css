@@ -378,6 +378,13 @@ footer li {
     transform: scale(1.2);
 }
 
+.footer-link-first a{
+	transition: 0.5s;
+}
+.footer-link-first a:hover{
+	color: #118DA8;
+}
+
 .footer-link a:hover {
     color: #118DA8;
 }
