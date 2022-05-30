@@ -354,11 +354,11 @@ footer li {
     padding: 2px 7px;
 }
 
-.applist li {
+.applist a {
     transition: 0.5s;
 }
 
-.applist li:hover {
+.applist a:hover {
     transform: scale(1.2); 
 }
 
