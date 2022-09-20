@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -16,13 +17,40 @@
     <header>
         <div class="container">
             <div class="navigation animated fadeInDown">
-                    <img src="img/logo.svg" alt="Castaway">
+                    <img src="img/logo.svg" alt="Castaway" class="logo">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Episodes</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
+                        <div class="topnav">
+                          <a class="logo__link">
+                            <img src="img/logo.svg" alt="logo">
+                          </a>
+                          <div id="myLinks">
+                            <div class="myLinks">
+                              <a class="menu__list-link" href="#about">
+                                about
+                              </a>
+                              <a class="menu__list-link" href="#benefits">
+                                benefits
+                              </a>
+                              <a class="menu__list-link" href="#progam">
+                                progam
+                              </a>
+                              <a class="menu__list-link" href="#trainer">
+                                trainer
+                              </a>
+                              <a class="menu__list-link" href="#news">
+                                news
+                              </a>
+                            </div>
+                          </div>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                        </div>
             </div>
             <div class="wrapper">
                 <img class="podcast1" src="img/podcast-1.jpg">
